@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/login">Log In</a></li>
+        <li><a href="/boards">Admin</a></li>
+      </ul>
+    </nav>
+    <form action="/boards" method="post">
+      User name : <input type="text" name="username" /><br/>
+      User email : <input type="text" name="email"/><br/>
+      Title : <input type="text" name="title"/><br/>
+      <textarea name="content" ></textarea><br/>
+      <input type="submit" value="Submit"/>
+    </form>
+  </body>
+</html>
