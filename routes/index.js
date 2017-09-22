@@ -12,7 +12,11 @@ router.get('/', function(req, res, next) {
 
   //if user is authenticated -> show inform of database
 //   var rows = [{username: 'changyoung', email:'email@naver.com', title:'hello World', content:'Hello World!!!'}]; //Test code whether it's visible
-  res.render('index', {title : "Express"});
+  var login_text = "Log In";
+  if (req.user){
+    login_text = "Log Out";
+  }
+  res.render('index', {title : "Express", log_text:login_text});
 });
 
 module.exports = router;

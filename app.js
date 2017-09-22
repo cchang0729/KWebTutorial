@@ -9,9 +9,12 @@ var index = require('./routes/index');
 var login = require('./routes/login');
 var boards = require('./routes/boards');
 var users = require('./routes/users');
+var passport = require('passport');
+var session = require('express-session');
 
 
 var app = express();
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -24,6 +27,19 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(session({secret : 'ljw'}));
+passport.serializeUser(function(user, done) {
+  console.log(user);
+  done(null, user);
+});
+
+passport.deserializeUser(function(user, done) {
+  console.log(user);
+  console.log('deserialize');
+  done(null, user);
+});
+app.use(passport.initialize());
+app.use(passport.session());
 
 app.use('/', index);
 app.use('/boards', boards);
@@ -47,5 +63,6 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
 
 module.exports = app;
