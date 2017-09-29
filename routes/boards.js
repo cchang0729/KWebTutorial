@@ -23,7 +23,7 @@ router.get('/', function(req, res, next){
         //for each element, insert to row
         cursor.toArray(function(err, docs){
             //load data from database
-            //send database data with boards.ejs
+            //send database data with users.ejs
             res.render('boards', { rows : docs } );
         });
         db.close();
@@ -41,7 +41,7 @@ router.post('/', function(req, res, next){
         title: req.body['title'],
         content: req.body['content']
     };
-    console.log(JSON.stringify(row));
+    //console.log(JSON.stringify(row));
     //connect to database
     mongoc.connect('mongodb://127.0.0.1:27017/KETIdb', function(err, db){
         if(err) {

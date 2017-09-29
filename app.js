@@ -11,7 +11,7 @@ var boards = require('./routes/boards');
 var users = require('./routes/users');
 var passport = require('passport');
 var session = require('express-session');
-
+var _tutorial = require('./routes/_tutorial');  //show tutorial type
 
 var app = express();
 
@@ -27,15 +27,16 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(session({secret : 'ljw'}));
+app.use(session({secret : 'ljasjdw'}));
+
 passport.serializeUser(function(user, done) {
-  console.log(user);
+  //console.log(user);
   done(null, user);
 });
 
 passport.deserializeUser(function(user, done) {
-  console.log(user);
-  console.log('deserialize');
+  //console.log(user);
+  //console.log('deserialize');
   done(null, user);
 });
 app.use(passport.initialize());
@@ -45,7 +46,7 @@ app.use('/', index);
 app.use('/boards', boards);
 app.use('/login', login);
 app.use('/users', users);
-
+app.use('/_tutorial', _tutorial);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
