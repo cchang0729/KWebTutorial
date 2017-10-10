@@ -2,10 +2,837 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="284a9166-53f2-4b13-b5d5-33a2be6eb71f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/clientlib.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/mysys.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/mysys_ssl.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/clientlib/deps/libmariadbclient/libmysql/errmsg.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/clientlib/deps/libmariadbclient/libmysql/libmysql.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/clientlib/deps/libmariadbclient/sql-common/client.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/clientlib/deps/libmariadbclient/sql-common/client_plugin.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/clientlib/deps/libmariadbclient/sql-common/my_time.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/clientlib/deps/libmariadbclient/sql-common/mysql_async.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/clientlib/deps/libmariadbclient/sql-common/pack.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/clientlib/deps/libmariadbclient/sql/net_serv.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/clientlib/deps/libmariadbclient/sql/password.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/deps/libmariadbclient/extra/yassl/taocrypt/taocrypt.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/deps/libmariadbclient/extra/yassl/yassl.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/deps/libmariadbclient/libmysql/clientlib.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/deps/libmariadbclient/mysys/mysys.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/deps/libmariadbclient/mysys_ssl/mysys_ssl.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/deps/libmariadbclient/strings/strings.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/deps/libmariadbclient/vio/vio.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/deps/libmariadbclient/zlib/zlib.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/array.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/charset-def.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/charset.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/errors.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/hash.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/list.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_arr_appstr.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_dirname.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_fn_ext.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_format.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_loadpath.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_pack.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_path.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_qsort.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_unixpath.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_wcomp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/mulalloc.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_access.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_alloc.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_compress.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_context.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_default.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_div.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_error.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_fopen.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_fstream.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_getsystime.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_getwd.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_init.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_lib.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_malloc.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_mess.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_once.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_open.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_pthread.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_read.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_seek.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_static.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_symlink.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_sync.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_thr_init.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_write.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/safemalloc.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/string.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/thr_mutex.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys/deps/libmariadbclient/mysys/typelib.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys_ssl/deps/libmariadbclient/mysys_ssl/my_aes.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys_ssl/deps/libmariadbclient/mysys_ssl/my_md5.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys_ssl/deps/libmariadbclient/mysys_ssl/my_rnd.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys_ssl/deps/libmariadbclient/mysys_ssl/my_sha1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/mysys_ssl/deps/libmariadbclient/mysys_ssl/my_sha2.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/sqlclient.node" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/sqlclient/src/binding.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/bchange.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/bmove_upp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-big5.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-bin.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-cp932.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-czech.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-euc_kr.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-eucjpms.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-extra.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-gb2312.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-gbk.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-latin1.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-mb.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-simple.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-sjis.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-tis620.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-uca.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-ucs2.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-ujis.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-utf8.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-win1250ch.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/ctype.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/dtoa.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/int2str.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/is_prefix.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/llstr.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/longlong2str.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/my_strtoll10.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/my_vsnprintf.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/str2int.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/str_alloc.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/strcend.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/strcont.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/strend.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/strfill.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/strmake.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/strmov.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/strmov_overlapp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/strnlen.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/strnmov.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/strxmov.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/strxnmov.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/strings/deps/libmariadbclient/strings/xml.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/aes.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/aestables.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/algebra.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/arc4.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/asn.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/bftables.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/blowfish.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/coding.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/des.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/dh.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/dsa.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/file.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/hash.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/hc128.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/integer.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/md2.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/md4.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/md5.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/misc.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/rabbit.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/random.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/ripemd.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/rsa.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/sha.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/tftables.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/twofish.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/vio/deps/libmariadbclient/vio/vio.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/vio/deps/libmariadbclient/vio/viopipe.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/vio/deps/libmariadbclient/vio/vioshm.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/vio/deps/libmariadbclient/vio/viosocket.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/vio/deps/libmariadbclient/vio/viossl.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/vio/deps/libmariadbclient/vio/viosslfactories.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/buffer.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/cert_wrapper.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/crypto_wrapper.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/handshake.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/lock.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/log.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/socket_wrapper.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/ssl.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/timer.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/yassl_error.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/yassl_imp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/yassl_int.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/zlib/deps/libmariadbclient/zlib/adler32.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/zlib/deps/libmariadbclient/zlib/compress.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/zlib/deps/libmariadbclient/zlib/crc32.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/zlib/deps/libmariadbclient/zlib/deflate.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/zlib/deps/libmariadbclient/zlib/gzclose.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/zlib/deps/libmariadbclient/zlib/gzlib.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/zlib/deps/libmariadbclient/zlib/gzread.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/zlib/deps/libmariadbclient/zlib/gzwrite.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/zlib/deps/libmariadbclient/zlib/infback.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/zlib/deps/libmariadbclient/zlib/inffast.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/zlib/deps/libmariadbclient/zlib/inflate.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/zlib/deps/libmariadbclient/zlib/inftrees.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/zlib/deps/libmariadbclient/zlib/trees.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/zlib/deps/libmariadbclient/zlib/uncompr.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/obj.target/zlib/deps/libmariadbclient/zlib/zutil.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/sqlclient.node" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/strings.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/taocrypt.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/vio.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/yassl.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/zlib.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/AUTHORS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/ChangeLog" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/NEWS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/ChangeLog" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lru-cache/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lru-cache/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lru-cache/CONTRIBUTORS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lru-cache/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lru-cache/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lru-cache/lib/lru-cache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lru-cache/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lru-cache/test/basic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lru-cache/test/foreach.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lru-cache/test/memory-leak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/lru-cache/test/serialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/appveyor.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/binding.gyp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/clientlib.a.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/mysys.a.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/mysys_ssl.a.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/clientlib/deps/libmariadbclient/libmysql/errmsg.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/clientlib/deps/libmariadbclient/libmysql/libmysql.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/clientlib/deps/libmariadbclient/sql-common/client.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/clientlib/deps/libmariadbclient/sql-common/client_plugin.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/clientlib/deps/libmariadbclient/sql-common/my_time.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/clientlib/deps/libmariadbclient/sql-common/mysql_async.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/clientlib/deps/libmariadbclient/sql-common/pack.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/clientlib/deps/libmariadbclient/sql/net_serv.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/clientlib/deps/libmariadbclient/sql/password.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/deps/libmariadbclient/extra/yassl/taocrypt/taocrypt.a.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/deps/libmariadbclient/extra/yassl/yassl.a.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/deps/libmariadbclient/libmysql/clientlib.a.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/deps/libmariadbclient/mysys/mysys.a.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/deps/libmariadbclient/mysys_ssl/mysys_ssl.a.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/deps/libmariadbclient/strings/strings.a.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/deps/libmariadbclient/vio/vio.a.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/deps/libmariadbclient/zlib/zlib.a.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/array.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/charset-def.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/charset.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/errors.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/hash.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/list.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_arr_appstr.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_dirname.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_fn_ext.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_format.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_loadpath.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_pack.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_path.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_qsort.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_unixpath.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/mf_wcomp.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/mulalloc.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_access.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_alloc.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_compress.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_context.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_default.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_div.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_error.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_fopen.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_fstream.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_getsystime.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_getwd.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_init.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_lib.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_malloc.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_mess.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_once.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_open.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_pthread.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_read.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_seek.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_static.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_symlink.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_sync.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_thr_init.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/my_write.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/safemalloc.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/string.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/thr_mutex.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys/deps/libmariadbclient/mysys/typelib.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys_ssl/deps/libmariadbclient/mysys_ssl/my_aes.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys_ssl/deps/libmariadbclient/mysys_ssl/my_md5.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys_ssl/deps/libmariadbclient/mysys_ssl/my_rnd.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys_ssl/deps/libmariadbclient/mysys_ssl/my_sha1.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/mysys_ssl/deps/libmariadbclient/mysys_ssl/my_sha2.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/sqlclient.node.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/sqlclient/src/binding.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/bchange.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/bmove_upp.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-big5.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-bin.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-cp932.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-czech.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-euc_kr.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-eucjpms.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-extra.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-gb2312.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-gbk.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-latin1.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-mb.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-simple.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-sjis.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-tis620.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-uca.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-ucs2.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-ujis.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-utf8.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/ctype-win1250ch.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/ctype.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/dtoa.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/int2str.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/is_prefix.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/llstr.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/longlong2str.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/my_strtoll10.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/my_vsnprintf.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/str2int.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/str_alloc.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/strcend.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/strcont.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/strend.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/strfill.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/strmake.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/strmov.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/strmov_overlapp.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/strnlen.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/strnmov.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/strxmov.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/strxnmov.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/strings/deps/libmariadbclient/strings/xml.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/aes.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/aestables.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/algebra.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/arc4.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/asn.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/bftables.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/blowfish.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/coding.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/des.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/dh.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/dsa.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/file.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/hash.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/hc128.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/integer.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/md2.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/md4.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/md5.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/misc.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/rabbit.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/random.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/ripemd.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/rsa.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/sha.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/tftables.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/taocrypt/deps/libmariadbclient/extra/yassl/taocrypt/src/twofish.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/vio/deps/libmariadbclient/vio/vio.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/vio/deps/libmariadbclient/vio/viopipe.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/vio/deps/libmariadbclient/vio/vioshm.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/vio/deps/libmariadbclient/vio/viosocket.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/vio/deps/libmariadbclient/vio/viossl.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/vio/deps/libmariadbclient/vio/viosslfactories.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/buffer.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/cert_wrapper.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/crypto_wrapper.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/handshake.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/lock.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/log.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/socket_wrapper.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/ssl.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/timer.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/yassl_error.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/yassl_imp.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/yassl/deps/libmariadbclient/extra/yassl/src/yassl_int.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/zlib/deps/libmariadbclient/zlib/adler32.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/zlib/deps/libmariadbclient/zlib/compress.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/zlib/deps/libmariadbclient/zlib/crc32.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/zlib/deps/libmariadbclient/zlib/deflate.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/zlib/deps/libmariadbclient/zlib/gzclose.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/zlib/deps/libmariadbclient/zlib/gzlib.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/zlib/deps/libmariadbclient/zlib/gzread.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/zlib/deps/libmariadbclient/zlib/gzwrite.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/zlib/deps/libmariadbclient/zlib/infback.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/zlib/deps/libmariadbclient/zlib/inffast.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/zlib/deps/libmariadbclient/zlib/inflate.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/zlib/deps/libmariadbclient/zlib/inftrees.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/zlib/deps/libmariadbclient/zlib/trees.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/zlib/deps/libmariadbclient/zlib/uncompr.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/obj.target/zlib/deps/libmariadbclient/zlib/zutil.o.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/sqlclient.node.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/strings.a.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/taocrypt.a.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/vio.a.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/yassl.a.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/Release/.deps/Release/zlib.a.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/binding.Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/config.gypi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/deps/libmariadbclient/extra/yassl/taocrypt/taocrypt.Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/deps/libmariadbclient/extra/yassl/taocrypt/taocrypt.target.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/deps/libmariadbclient/extra/yassl/yassl.Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/deps/libmariadbclient/extra/yassl/yassl.target.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/deps/libmariadbclient/libmysql/clientlib.Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/deps/libmariadbclient/libmysql/clientlib.target.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/deps/libmariadbclient/mysys/mysys.Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/deps/libmariadbclient/mysys/mysys.target.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/deps/libmariadbclient/mysys_ssl/mysys_ssl.Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/deps/libmariadbclient/mysys_ssl/mysys_ssl.target.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/deps/libmariadbclient/strings/strings.Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/deps/libmariadbclient/strings/strings.target.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/deps/libmariadbclient/vio/vio.Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/deps/libmariadbclient/vio/vio.target.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/deps/libmariadbclient/zlib/zlib.Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/deps/libmariadbclient/zlib/zlib.target.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/build/sqlclient.target.mk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/COPYING" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/COPYING.LESSER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/KNOWN_BUGS.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/VERSION" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/config/config.gypi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/config/freebsd/config.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/config/linux/config.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/config/mac/config.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/config/solaris/config.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/config/win/config.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/COPYING" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/FLOSS-EXCEPTIONS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/INSTALL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/buffer.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/cert_wrapper.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/crypto_wrapper.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/factory.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/handshake.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/lock.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/log.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/crypto.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/des.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/des_old.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/engine.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/err.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/evp.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/hmac.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/lhash.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/md4.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/md5.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/objects.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/opensslv.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/pem.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/pkcs12.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/prefix_crypto.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/prefix_ssl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/rand.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/rsa.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/sha.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/ssl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/transport_types.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/x509.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/openssl/x509v3.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/socket_wrapper.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/timer.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/yassl.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/yassl_error.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/yassl_imp.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/yassl_int.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/include/yassl_types.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/src/buffer.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/src/cert_wrapper.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/src/crypto_wrapper.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/src/handshake.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/src/lock.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/src/log.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/src/socket_wrapper.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/src/ssl.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/src/timer.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/src/yassl.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/src/yassl_error.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/src/yassl_imp.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/src/yassl_int.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/COPYING" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/INSTALL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/aes.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/algebra.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/arc4.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/asn.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/block.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/blowfish.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/coding.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/des.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/dh.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/dsa.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/error.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/file.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/hash.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/hc128.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/hmac.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/integer.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/md2.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/md4.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/md5.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/misc.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/modarith.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/modes.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/pwdbased.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/rabbit.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/random.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/ripemd.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/rsa.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/runtime.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/sha.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/twofish.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/type_traits.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/include/types.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/mySTL/algorithm.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/mySTL/helpers.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/mySTL/list.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/mySTL/memory.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/mySTL/memory_array.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/mySTL/pair.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/mySTL/stdexcept.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/mySTL/vector.hpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/aes.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/aestables.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/algebra.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/arc4.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/asn.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/bftables.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/blowfish.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/coding.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/des.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/dh.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/dsa.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/file.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/hash.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/hc128.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/integer.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/md2.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/md4.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/md5.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/misc.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/rabbit.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/random.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/ripemd.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/rsa.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/sha.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/tftables.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/src/twofish.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/taocrypt/taocrypt.gyp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/extra/yassl/yassl.gyp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/big_endian.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/byte_order_generic.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/byte_order_generic_x86.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/byte_order_generic_x86_64.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/decimal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/errmsg.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/hash.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/little_endian.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/m_ctype.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/m_string.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_aes.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_alarm.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_alloc.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_attribute.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_base.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_byteorder.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_compiler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_context.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_crypt.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_dbug.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_default.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_dir.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_global.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_handler_errors.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_list.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_md5.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_net.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_pthread.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_rnd.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_stacktrace.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_sys.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_time.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_uctype.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_valgrind.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/my_xml.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/auth_dialog_client.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/client_plugin.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/plugin.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/plugin_auth_common.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/plugin_ftparser.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/psi/mysql_file.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/psi/mysql_socket.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/psi/mysql_stage.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/psi/mysql_thread.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/psi/psi.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/service_debug_sync.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/service_encryption.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/service_encryption_scheme.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/service_kill_statement.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/service_logger.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/service_md5.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/service_my_snprintf.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/service_progress_report.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/service_sha1.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/service_thd_alloc.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/service_thd_autoinc.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/service_thd_error_context.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/service_thd_specifics.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/service_thd_timezone.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/service_thd_wait.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql/services.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql_async.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql_com.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql_time.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysql_version.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysqld_error.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/mysys_err.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/password.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/probes_mysql.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/probes_mysql_nodtrace.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/rijndael.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/sha1.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/sha2.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/snprintf.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/sql_common.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/thr_alarm.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/typelib.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/include/violite.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/libmysql/client_settings.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/libmysql/clientlib.gyp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/libmysql/errmsg.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/libmysql/libmysql.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/libmysql/snprintf.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/array.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/charset-def.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/charset.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/errors.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/hash.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/list.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/mf_arr_appstr.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/mf_dirname.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/mf_fn_ext.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/mf_format.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/mf_loadpath.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/mf_pack.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/mf_path.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/mf_qsort.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/mf_unixpath.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/mf_wcomp.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/mulalloc.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_access.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_alloc.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_compress.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_context.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_default.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_div.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_error.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_fopen.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_fstream.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_getsystime.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_getwd.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_init.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_lib.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_malloc.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_mess.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_once.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_open.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_pthread.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_read.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_rnd.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_seek.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_static.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_static.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_symlink.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_symlink2.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_sync.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_thr_init.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_wincond.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_windac.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_winerr.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_winfile.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_winthread.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/my_write.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/mysys.gyp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/mysys_priv.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/safemalloc.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/string.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/thr_mutex.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys/typelib.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys_ssl/my_aes.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys_ssl/my_crypt.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys_ssl/my_md5.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys_ssl/my_rnd.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys_ssl/my_sha1.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys_ssl/my_sha2.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/mysys_ssl/mysys_ssl.gyp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/sql-common/client.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/sql-common/client_plugin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/sql-common/my_time.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/sql-common/mysql_async.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/sql-common/pack.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/sql/net_serv.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/sql/password.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/bchange.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/bmove_upp.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype-big5.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype-bin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype-cp932.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype-czech.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype-euc_kr.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype-eucjpms.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype-extra.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype-gb2312.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype-gbk.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype-latin1.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype-mb.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype-mb.ic" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype-simple.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype-sjis.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype-tis620.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype-uca.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype-ucs2.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype-ujis.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype-utf8.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype-win1250ch.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/ctype.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/dtoa.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/int2str.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/is_prefix.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/llstr.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/longlong2str.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/my_strtoll10.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/my_vsnprintf.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/str2int.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/str_alloc.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/strcend.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/strcoll.ic" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/strcont.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/strend.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/strfill.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/strings.gyp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/strings_def.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/strmake.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/strmov.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/strmov_overlapp.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/strnlen.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/strnmov.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/strxmov.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/strxnmov.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/t_ctype.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/strings/xml.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/vio/vio.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/vio/vio.gyp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/vio/vio_priv.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/vio/viopipe.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/vio/vioshm.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/vio/viosocket.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/vio/viossl.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/vio/viosslfactories.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/FAQ" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/INDEX" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/adler32.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/compress.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/crc32.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/crc32.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/deflate.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/deflate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/gzclose.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/gzguts.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/gzlib.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/gzread.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/gzwrite.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/infback.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/inffast.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/inffast.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/inffixed.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/inflate.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/inflate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/inftrees.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/inftrees.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/trees.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/trees.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/uncompr.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/zconf.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/zlib.gyp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/zlib.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/zutil.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/deps/libmariadbclient/zlib/zutil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/lib/Client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/src/binding.cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mariasql/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/doc/asyncworker.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/doc/buffers.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/doc/callback.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/doc/converters.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/doc/errors.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/doc/json.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/doc/maybe_types.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/doc/methods.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/doc/new.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/doc/node_misc.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/doc/object_wrappers.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/doc/persistent.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/doc/scopes.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/doc/script.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/doc/string_bytes.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/doc/v8_internals.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/doc/v8_misc.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/include_dirs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/nan.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/nan_callbacks.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/nan_callbacks_12_inl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/nan_callbacks_pre_12_inl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/nan_converters.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/nan_converters_43_inl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/nan_converters_pre_43_inl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/nan_implementation_12_inl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/nan_implementation_pre_12_inl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/nan_json.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/nan_maybe_43_inl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/nan_maybe_pre_43_inl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/nan_new.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/nan_object_wrap.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/nan_persistent_12_inl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/nan_persistent_pre_12_inl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/nan_private.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/nan_string_bytes.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/nan_typedarray_contents.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/nan_weak.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/tools/1to2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/tools/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/nan/tools/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/_tutorial.js" afterPath="$PROJECT_DIR$/routes/_tutorial.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/users.js" afterPath="$PROJECT_DIR$/routes/users.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/contact.ejs" afterPath="$PROJECT_DIR$/views/contact.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/join.ejs" afterPath="$PROJECT_DIR$/views/join.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/users.ejs" afterPath="$PROJECT_DIR$/views/users.ejs" />
     </list>
@@ -33,18 +860,28 @@
       <file leaf-file-name="users.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/users.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+            <state relative-caret-position="504">
+              <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="join.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/join.ejs">
+      <file leaf-file-name="login.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/login.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/error.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,28 +890,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/contact.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+            <state relative-caret-position="144">
+              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -83,8 +900,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            <state relative-caret-position="18">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -93,8 +910,8 @@
       <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="90">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="e#0#46#0" expanded="false" />
               </folding>
@@ -106,7 +923,7 @@
         <entry file="file://$PROJECT_DIR$/routes/boards.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -115,18 +932,8 @@
       <file leaf-file-name="_tutorial.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/_tutorial.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/login.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="18">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -159,12 +966,12 @@
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/boards.js" />
-        <option value="$PROJECT_DIR$/routes/_tutorial.js" />
         <option value="$PROJECT_DIR$/Moderna/blog.html" />
         <option value="$PROJECT_DIR$/public/stylesheets/overwrite.css" />
-        <option value="$PROJECT_DIR$/routes/users.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/contact.ejs" />
+        <option value="$PROJECT_DIR$/routes/_tutorial.js" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
         <option value="$PROJECT_DIR$/views/join.ejs" />
         <option value="$PROJECT_DIR$/views/users.ejs" />
       </list>
@@ -210,7 +1017,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -287,7 +1094,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,16 +1194,17 @@
       <workItem from="1506336529541" duration="10043000" />
       <workItem from="1506658063759" duration="10694000" />
       <workItem from="1506763088254" duration="377000" />
-      <workItem from="1507598596439" duration="705000" />
+      <workItem from="1507598596439" duration="1841000" />
+      <workItem from="1507600591677" duration="6720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56140000" />
+    <option name="totallyTimeSpent" value="63996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="24" width="1615" height="1026" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28724074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -404,7 +1212,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3398058" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3398058" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -470,13 +1278,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs" />
     <entry file="file://$PROJECT_DIR$/routes/boards.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -531,13 +1333,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs" />
     <entry file="file://$PROJECT_DIR$/routes/boards.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -604,13 +1400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/error.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/_index.ejs" />
     <entry file="file://$PROJECT_DIR$/Moderna/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -623,13 +1412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -710,6 +1492,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="785" column="1" selection-start-line="785" selection-start-column="1" selection-end-line="785" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs" />
+    <entry file="file://$PROJECT_DIR$/routes/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/_tutorial.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/error.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/boards.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/join.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -722,76 +1552,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/login.js">
+    <entry file="file://$PROJECT_DIR$/views/contact.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/boards.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/_tutorial.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#46#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        <state relative-caret-position="288">
+          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="144">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/contact.ejs">
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/join.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="90">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/users.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        <state relative-caret-position="504">
+          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
           <folding />
         </state>
       </provider>

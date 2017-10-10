@@ -13,6 +13,7 @@
     "express": "~4.14.1",
     "express-mailer": "^0.3.1",
     "express-session": "^1.15.5",
+    "mariasql": "^0.2.6",
     "mongodb": "^2.2.31",
     "morgan": "~1.7.0",
     "passport": "^0.4.0",

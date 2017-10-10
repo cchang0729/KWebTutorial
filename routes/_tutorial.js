@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var mariasql = require('mariasql');
 
 
 
@@ -12,6 +13,16 @@ router.get('/', function(req, res, next) {
 
     //if user is authenticated -> show inform of database
 //   var rows = [{username: 'changyoung', email:'email@naver.com', title:'hello World', content:'Hello World!!!'}]; //Test code whether it's visible
+    var client = new mariasql({
+        host : '127.0.0.1',
+        user : 'keti',
+        password : 'keti'
+        });
+    client.query("show databases", function(err, rows){
+        if(err)
+            throw err;
+        console.log(rows);
+    });
     res.render('users');
 });
 
