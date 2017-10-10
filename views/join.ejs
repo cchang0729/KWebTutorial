@@ -37,7 +37,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo_openholo.png"/></a>
+                    <a class="navbar-brand" href="/"><img src="images/logo_openholo.png"/></a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
@@ -75,8 +75,8 @@
                     </div>
                     <br/>
                     <div id="sendmessage">Your message has been sent. Thank you!</div>
-                    <div id="errormessage"></div>
-                    <form action="/users" method="post" role="form" class="contactForm">
+                    <div id="errormessage">I'm sorry but server has problem. Send it later. </div>
+                    <form action="/users" type="post" class="contactForm">
                         <div class="form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                             <div class="validation"></div>
@@ -148,6 +148,7 @@
 <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
 <script src="javascripts/animate.js"></script>
 <script src="javascripts/custom.js"></script>
+<script src="javascripts/async.js"></script>
 <!--<script src="contactform/contactform.js"></script> <!-- PUT IT LATER->
 
 </body>

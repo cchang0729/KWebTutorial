@@ -5,6 +5,7 @@
 var express = require('express');
 var router = express.Router();
 var Client = require('mariasql');
+var path = require('path');
 
 /* GET user */
 router.get('/', function(req, res, next){
@@ -52,7 +53,13 @@ router.post('/', function(req, res, next){
 
     //redirect to '/', sending message
     c.end();
-    res.redirect('/');
+    res.send('Success');
+});
+
+/* download information as csv file */
+router.get('/download', function(req, res, next){
+    var filename = path.resolve('data/users.csv');
+    res.download(filename);
 });
 
 module.exports = router;
