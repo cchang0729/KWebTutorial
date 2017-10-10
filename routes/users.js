@@ -7,6 +7,7 @@ var router = express.Router();
 
 /* GET user */
 router.get('/', function(req, res, next){
+    res.render('users');
 });
 
 /* POST user */
