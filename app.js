@@ -14,6 +14,15 @@ var session = require('express-session');
 var _tutorial = require('./routes/_tutorial');  //show tutorial type
 
 var app = express();
+var appAdmin = require('express-admin');
+
+var adminConfig = {
+  dpath: './express-admin-config/',
+  config: require('./express-admin-config/config.json'),
+  settings: require('./express-admin-config/settings.json'),
+  custom: require('./express-admin-config/custom.json'),
+  users: require('./express-admin-config/users.json')
+};
 
 
 // view engine setup
