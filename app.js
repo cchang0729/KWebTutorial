@@ -13,66 +13,55 @@ var passport = require('passport');
 var session = require('express-session');
 var _tutorial = require('./routes/_tutorial');  //show tutorial type
 
-var app = express();
-var appAdmin = require('express-admin');
-
-var adminConfig = {
-  dpath: './express-admin-config/',
-  config: require('./express-admin-config/config.json'),
-  settings: require('./express-admin-config/settings.json'),
-  custom: require('./express-admin-config/custom.json'),
-  users: require('./express-admin-config/users.json')
-};
-
-
+var appCreate = function(app){
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'ejs');
+  app.set('views', path.join(__dirname, 'views'));
+  app.set('view engine', 'ejs');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-app.use(logger('dev'));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
-app.use(session({secret : 'ljasjdw'}));
+  app.use(logger('dev'));
+  app.use(bodyParser.json());
+  app.use(bodyParser.urlencoded({ extended: false }));
+  app.use(cookieParser());
+  app.use(express.static(path.join(__dirname, 'public')));
+  app.use(session({secret : 'ljasjdw'}));
 
-passport.serializeUser(function(user, done) {
-  //console.log(user);
-  done(null, user);
-});
+  passport.serializeUser(function(user, done) {
+    //console.log(user);
+    done(null, user);
+  });
 
-passport.deserializeUser(function(user, done) {
-  //console.log(user);
-  //console.log('deserialize');
-  done(null, user);
-});
-app.use(passport.initialize());
-app.use(passport.session());
+  passport.deserializeUser(function(user, done) {
+    //console.log(user);
+    //console.log('deserialize');
+    done(null, user);
+  });
+  app.use(passport.initialize());
+  app.use(passport.session());
 
-app.use('/', index);
-app.use('/boards', boards);
-app.use('/login', login);
-app.use('/users', users);
-app.use('/_tutorial', _tutorial);
+  app.use('/', index);
+  app.use('/boards', boards);
+  app.use('/login', login);
+  app.use('/users', users);
+  app.use('/_tutorial', _tutorial);
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  var err = new Error('Not Found');
-  err.status = 404;
-  next(err);
-});
+  app.use(function(req, res, next) {
+    var err = new Error('Not Found');
+    err.status = 404;
+    next(err);
+  });
 
 // error handler
-app.use(function(err, req, res, next) {
-  // set locals, only providing error in development
-  res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
+  app.use(function(err, req, res, next) {
+    // set locals, only providing error in development
+    res.locals.message = err.message;
+    res.locals.error = req.app.get('env') === 'development' ? err : {};
 
-  // render the error page
-  res.status(err.status || 500);
-  res.render('error');
-});
+    // render the error page
+    res.status(err.status || 500);
+    res.render('error');
+  });
+};
 
-
-module.exports = app;
+module.exports = appCreate;
