@@ -12,7 +12,6 @@ router.get('/', function(req, res, next) {
     //if user is not authenticated -> redirect to index.html with alert message
 
     //if user is authenticated -> show inform of database
-//   var rows = [{username: 'changyoung', email:'email@naver.com', title:'hello World', content:'Hello World!!!'}]; //Test code whether it's visible
     var client = new mariasql({
         host : '127.0.0.1',
         user : 'keti',
@@ -22,8 +21,8 @@ router.get('/', function(req, res, next) {
         if(err)
             throw err;
         console.log(rows);
+        res.render('board', {rows : rows});
     });
-    res.render('users');
 });
 
 module.exports = router;
