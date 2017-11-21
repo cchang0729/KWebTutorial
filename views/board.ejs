@@ -71,29 +71,20 @@
                     <table class="table">
                         <thead>
                         <tr>
-                            <th>순번</th>
-                            <th>제목</th>
-                            <th>작성자</th>
-                            <th>날짜</th>
+                            <th><%=rows.title%></th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
-                            <td><%=rows.id%></td>
-                            <td><%=rows.name%></td>
+                            <td><%=rows.name%><div class="align-right"><%=rows.date%></div></td>
+                        </tr>
+                        <tr>
                             <td><%=rows.contents%></td>
-                            <td><%=rows.date%></td>
                         </tr>
                         </tbody>
 
                     </table>
-                    <div id="pagination">
-                        <span class="all">Page 1 of 3</span>
-                        <span class="current">1</span>
-                        <a href="#" class="inactive">2</a>
-                        <a href="#" class="inactive">3</a>
-                    </div>
-                    <a href="/board/:id" class="btn btn-default pull-right">글쓰기</a>
+                    <a href="./<%=rows.id%>/delete" class="btn btn-default pull-right">삭제하기</a>
 
                 </div>
             </div>
