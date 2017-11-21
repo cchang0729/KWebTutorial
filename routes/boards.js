@@ -1,15 +1,11 @@
 var express = require('express');
 var router = express.Router();
 var Client = require('mariasql');
+var dbconfig = require('../config/dbconfig');
 
 //show all
 router.get('/', function(req, res, next) {
-    var client = new Client({
-        host : '127.0.0.1',
-        db: 'openholo',
-        user : 'keti',
-        password : 'keti'
-    });
+    var client = new Client(dbconfig);
     client.query("select * from boards", function(err, rows){
         console.log(rows);
         if(err)
@@ -26,12 +22,7 @@ router.get('/new', function(req, res, next) {
 router.get('/:id', function(req, res, next) {
     //connect to database
     var id = req.params.id;
-    var c = new Client({
-        host : 'localhost',
-        db : 'openholo',
-        user : 'keti',
-        password : 'keti'
-    });
+    var c = new Client(dbconfig);
 
     c.query("select * from boards where id="+id, function(err, rows){
         res.render('board', {rows:rows[0]});
@@ -45,12 +36,7 @@ router.get('/:id/:method', function(req, res, next) {
     var id = req.params.id;
     var is_delete = req.params.method === "delete";
     if(is_delete){
-        var c = new Client({
-            host : 'localhost',
-            db : 'openholo',
-            user : 'keti',
-            password : 'keti'
-        });
+        var c = new Client(dbconfig);
         //delete operation in database!1
         c.query("DELETE FROM `openholo`.`boards` WHERE `id`=" + id.toString(), function(err, rows){
             if(err)
@@ -74,12 +60,7 @@ router.post('/', function(req, res, next){
     var dbQuery = "INSERT INTO  openholo.boards (`name`, `title`, `contents`, `date`) VALUES ('"+row.username+"','"+ row.title + "','" + row.contents + "','"+ row.date + "');";    //console.log(JSON.stringify(row));
     console.log(dbQuery);
     //connect to database
-    var client = new Client({
-        host : '127.0.0.1',
-        db: 'openholo',
-        user : 'keti',
-        password : 'keti'
-    });
+    var client = new Client(dbconfig);
     client.query( dbQuery, function(err, rows){
         if(err)
             throw err;

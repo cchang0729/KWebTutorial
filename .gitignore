@@ -3,3 +3,4 @@ node_modules/*
 data/users.csv
 Moderna/*
 express-admin-config/*
+config/*
