@@ -51,10 +51,12 @@ router.get('/:id/:method', function(req, res, next) {
             user : 'keti',
             password : 'keti'
         });
-        console.log('delete it!');
         //delete operation in database!1
-
-        res.redirect('/boards');
+        c.query("DELETE FROM `openholo`.`boards` WHERE `id`=" + id.toString(), function(err, rows){
+            if(err)
+                throw err;
+            res.redirect('/boards');
+        });
     }
     c.end();
 });
