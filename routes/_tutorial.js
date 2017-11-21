@@ -20,8 +20,8 @@ router.get('/', function(req, res, next) {
     client.query("show databases", function(err, rows){
         if(err)
             throw err;
-        console.log(rows);
-        res.render('board', {rows : rows});
+
+        res.render('boards', {rows : rows});
     });
 });
 
