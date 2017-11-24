@@ -3,6 +3,7 @@ var router = express.Router();
 var Client = require('mariasql');
 var dbconfig = require('../config/dbconfig');
 var passport = require('passport');
+var uploader = require('multer')({dest : 'public/upload/'}).array('upload-files', 10);
 
 //show all
 router.get('/', function(req, res, next) {
@@ -20,7 +21,7 @@ router.get('/new', function(req, res, next) {
 });
 
 /* GET board, require authentication. */
-router.get('/:id', function(req, res, next) {
+router.get('/:id([0-9]+$)', function(req, res, next) {
     //connect to database
     var id = req.params.id;
     var c = new Client(dbconfig);
@@ -32,27 +33,25 @@ router.get('/:id', function(req, res, next) {
 });
 
 /* GET board, require authentication. */
-router.get('/:id/:method', function(req, res, next){
-    if(!req.user) res.redirect('../login');    //if not login state
+router.get('/:id/delete', function(req, res, next){
+    if(!req.user) res.redirect('../../login');    //if not login state
     else next();                            //if login state
     }, function(req, res, next) {
     //connect to database
     var id = req.params.id;
-    var is_delete = req.params.method === "delete";
-    if(is_delete){
-        var c = new Client(dbconfig);
-        //delete operation in database!1
-        c.query("DELETE FROM `openholo`.`boards` WHERE `id`=" + id.toString(), function(err, rows){
-            if(err)
-                throw err;
-            res.redirect('../boards');
-        });
-    }
+    var c = new Client(dbconfig);
+    //delete operation in database!1
+    c.query("DELETE FROM `openholo`.`boards` WHERE `id`=" + id.toString(), function(err, rows){
+        if(err)
+            throw err;
+        res.redirect('../../boards');
+    });
     c.end();
 });
 
 /* post on board ==> append to database and redirect to home*/
-router.post('/', function(req, res, next){
+router.post('/', uploader, function(req, res, next){
+    console.log(req.files['upload-files']);
     //load data from req
     var date = new Date();
     var row = {
@@ -66,11 +65,10 @@ router.post('/', function(req, res, next){
     var client = new Client(dbconfig);
     var prep = client.prepare("INSERT INTO `openholo`.`boards` (`name`, `title`, `contents`, `date`) VALUES (:username, :title, :contents, :date);");
 
-    console.log(prep(row));
     client.query( prep(row), function(err, rows){
         if(err)
             throw err;
-        res.redirect('./');
+        res.redirect('../boards');
     });
     client.end();
 });

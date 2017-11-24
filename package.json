@@ -17,6 +17,7 @@
     "mariasql": "^0.2.6",
     "mongodb": "^2.2.31",
     "morgan": "~1.7.0",
+    "multer": "^1.3.0",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "promise": "^8.0.1",

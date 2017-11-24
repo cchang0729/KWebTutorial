@@ -62,7 +62,7 @@
     <section id="content">
         <div class="container" >
             <div class="row">
-                <form method="POST" action="./">
+                <form method="POST" action="./" enctype="multipart/form-data">
                     <div class="form-group">
                         <input type="text" name="title" class="form-control" id="title" placeholder="Title" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                         <div class="validation"></div>
@@ -74,6 +74,13 @@
                     <div class="form-group">
                         <textarea type="text" class="form-control" name="contents" rows="5" id="contents" placeholder="Contents" data-rule="required" data-msg="Please write your affiliation" ></textarea>
                         <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <span class="btn btn-theme fileinput-button">
+                            <i class="glyphicon glyphicon-plus"></i>
+                            <span>Add files...</span>
+                            <input type="file" name="upload-files" multiple >
+                        </span>
                     </div>
                     <div class="text-center"><button type="submit" class="btn btn-default pull-right">업로드</button></div>
                 </form>

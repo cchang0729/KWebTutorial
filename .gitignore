@@ -4,3 +4,4 @@ data/users.csv
 Moderna/*
 express-admin-config/*
 config/*
+public/upload/*
