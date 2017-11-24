@@ -77,10 +77,16 @@
                             <td><%=rows.contents%></td>
                         </tr>
                         </tbody>
-
+                        <tr>
+                        </tr>
                     </table>
+                    <span class="btn btn-default file-input-button">
+                            <i class="glyphicon glyphicon-download"></i>
+                            <span>Uploaded Files </span>
+                            <input type="text" value=" <%=rows.filename%>" ></input>
+                            <a href=<%='./download/' + rows.filename%> class="btn-default" name="download" >다운로드</a>
+                    </span>
                     <a href="./<%=rows.id%>/delete" class="btn btn-default pull-right">삭제하기</a>
-
                 </div>
             </div>
         </div>

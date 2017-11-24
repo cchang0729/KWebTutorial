@@ -17,6 +17,20 @@ function downloadCSV(){
     });
 }
 
+function downloadUploadedFiles(filename){
+    alert(1);
+    $.ajax({
+        url: './download/' + filename,
+        timeout: 10000,
+        type: "GET",
+        success: function (msg) {
+            windows.open('./downloaded' + filename);
+        },
+        error: function (err, textStatus) {
+            alert('error');
+        }
+    });
+}
 $(document).ready(function(){
     $('.contactForm').on('submit', function(e) {
         e.preventDefault();
