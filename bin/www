@@ -5,20 +5,16 @@
  */
 
 var appMount = require('../app');
-var appAdminMount = require('../admin-app');
 var debug = require('debug')('keti:server');
 var http = require('http');
 
 var app = require('express')();
-appAdminMount(app).then(function(res){
-  appMount(res);
-  return res;
-}).then(function(app){
+appMount(app);
   /**
    * Get port from environment and store in Express.
    */
 
-  var port = normalizePort(process.env.PORT || '3000');
+  var port = normalizePort(process.env.PORT || '8882');
   app.set('port', port);
 
   /**
@@ -94,5 +90,4 @@ appAdminMount(app).then(function(res){
         : 'port ' + addr.port;
     debug('Listening on ' + bind);
   }
-});
 

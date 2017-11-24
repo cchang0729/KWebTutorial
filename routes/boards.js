@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var Client = require('mariasql');
 var dbconfig = require('../config/dbconfig');
+var passport = require('passport');
 
 //show all
 router.get('/', function(req, res, next) {
@@ -31,7 +32,10 @@ router.get('/:id', function(req, res, next) {
 });
 
 /* GET board, require authentication. */
-router.get('/:id/:method', function(req, res, next) {
+router.get('/:id/:method', function(req, res, next){
+    if(!req.user) res.redirect('/login');    //if not login state
+    else next();                            //if login state
+    }, function(req, res, next) {
     //connect to database
     var id = req.params.id;
     var is_delete = req.params.method === "delete";

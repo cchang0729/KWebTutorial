@@ -12,17 +12,7 @@ router.get('/', function(req, res, next) {
     //if user is not authenticated -> redirect to index.html with alert message
 
     //if user is authenticated -> show inform of database
-    var client = new mariasql({
-        host : '127.0.0.1',
-        user : 'keti',
-        password : 'keti'
-        });
-    client.query("show databases", function(err, rows){
-        if(err)
-            throw err;
-
-        res.render('boards', {rows : rows});
-    });
+    res.render('login');
 });
 
 module.exports = router;
