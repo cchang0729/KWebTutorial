@@ -33,7 +33,7 @@ router.get('/:id', function(req, res, next) {
 
 /* GET board, require authentication. */
 router.get('/:id/:method', function(req, res, next){
-    if(!req.user) res.redirect('/login');    //if not login state
+    if(!req.user) res.redirect('../login');    //if not login state
     else next();                            //if login state
     }, function(req, res, next) {
     //connect to database
@@ -45,7 +45,7 @@ router.get('/:id/:method', function(req, res, next){
         c.query("DELETE FROM `openholo`.`boards` WHERE `id`=" + id.toString(), function(err, rows){
             if(err)
                 throw err;
-            res.redirect('/boards');
+            res.redirect('../boards');
         });
     }
     c.end();
@@ -62,13 +62,13 @@ router.post('/', function(req, res, next){
         date: date.getFullYear().toString() + "-" + (date.getMonth() + 1).toString() + "-" + date.getDate().toString()
     };
     var dbQuery = "INSERT INTO  openholo.boards (`name`, `title`, `contents`, `date`) VALUES ('"+row.username+"','"+ row.title + "','" + row.contents + "','"+ row.date + "');";    //console.log(JSON.stringify(row));
-    console.log(dbQuery);
+    // console.log(dbQuery);
     //connect to database
     var client = new Client(dbconfig);
     client.query( dbQuery, function(err, rows){
         if(err)
             throw err;
-        res.redirect('/boards');
+        res.redirect('./');
     });
     client.end();
 });

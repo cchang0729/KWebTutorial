@@ -39,12 +39,12 @@ router.get('/', function(req, res, next) {
         res.clearCookie('_id');
         res.clearCookie('username');
         res.clearCookie('password');
-        res.redirect('/');
+        res.redirect('../');
     }
     else {
         res.render('login');
     }
 });
 
-router.post('/', passport.authenticate('local', {successRedirect : '/', failureRedirect: '/login', failureFlash: true}));
+router.post('/', passport.authenticate('local', {successRedirect : './', failureRedirect: './login', failureFlash: true}));
 module.exports = router;
