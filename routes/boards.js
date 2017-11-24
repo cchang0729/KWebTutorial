@@ -61,11 +61,13 @@ router.post('/', function(req, res, next){
         contents: req.body['contents'],
         date: date.getFullYear().toString() + "-" + (date.getMonth() + 1).toString() + "-" + date.getDate().toString()
     };
-    var dbQuery = "INSERT INTO  openholo.boards (`name`, `title`, `contents`, `date`) VALUES ('"+row.username+"','"+ row.title + "','" + row.contents + "','"+ row.date + "');";    //console.log(JSON.stringify(row));
     // console.log(dbQuery);
     //connect to database
     var client = new Client(dbconfig);
-    client.query( dbQuery, function(err, rows){
+    var prep = client.prepare("INSERT INTO `openholo`.`boards` (`name`, `title`, `contents`, `date`) VALUES (:username, :title, :contents, :date);");
+
+    console.log(prep(row));
+    client.query( prep(row), function(err, rows){
         if(err)
             throw err;
         res.redirect('./');
