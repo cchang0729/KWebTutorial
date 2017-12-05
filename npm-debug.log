@@ -9,7 +9,7 @@
 6 silly lifecycle keti@0.0.0~prestart: no script for prestart, continuing
 7 info lifecycle keti@0.0.0~start: keti@0.0.0
 8 verbose lifecycle keti@0.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle keti@0.0.0~start: PATH: /home/changyoung/.nvm/versions/node/v7.1.0/lib/node_modules/npm/bin/node-gyp-bin:/home/changyoung/code/WebstormProjects/KETI/node_modules/.bin:/home/changyoung/.rvm/gems/ruby-2.3.0/bin:/home/changyoung/.rvm/bin:/home/changyoung/bin:/home/changyoung/.linuxbrew/bin:/home/changyoung/.nvm/versions/node/v7.1.0/bin:/opt/ros/kinetic/bin:/home/changyoung/.rvm/gems/ruby-2.3.0/bin:/home/changyoung/.rvm/gems/ruby-2.3.0@global/bin:/home/changyoung/.rvm/rubies/ruby-2.3.0/bin:/bin:/home/changyoung/.rvm/bin:/home/changyoung/bin:/home/changyoung/.linuxbrew/bin:/home/changyoung/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/changyoung/.rvm/bin
+9 verbose lifecycle keti@0.0.0~start: PATH: /home/changyoung/.nvm/versions/node/v7.1.0/lib/node_modules/npm/bin/node-gyp-bin:/home/changyoung/code/WebstormProjects/KETI/node_modules/.bin:/home/changyoung/.nvm/versions/node/v7.1.0/bin:/home/changyoung/.rvm/gems/ruby-2.3.0/bin:/home/changyoung/.rvm/bin:/home/changyoung/bin:/home/changyoung/.linuxbrew/bin:/opt/ros/kinetic/bin:/home/changyoung/.rvm/gems/ruby-2.3.0/bin:/home/changyoung/.rvm/gems/ruby-2.3.0@global/bin:/home/changyoung/.rvm/rubies/ruby-2.3.0/bin:/bin:/home/changyoung/.rvm/bin:/home/changyoung/bin:/home/changyoung/.linuxbrew/bin:/home/changyoung/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/changyoung/.rvm/bin
 10 verbose lifecycle keti@0.0.0~start: CWD: /home/changyoung/code/WebstormProjects/KETI
 11 silly lifecycle keti@0.0.0~start: Args: [ '-c', 'node ./bin/www' ]
 12 silly lifecycle keti@0.0.0~start: Returned: code: 1  signal: null
@@ -26,7 +26,7 @@
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid keti@0.0.0
 16 verbose cwd /home/changyoung/code/WebstormProjects/KETI
-17 error Linux 4.4.0-98-generic
+17 error Linux 4.4.0-101-generic
 18 error argv "/home/changyoung/.nvm/versions/node/v7.1.0/bin/node" "/home/changyoung/.nvm/versions/node/v7.1.0/bin/npm" "start"
 19 error node v7.1.0
 20 error npm  v3.10.9

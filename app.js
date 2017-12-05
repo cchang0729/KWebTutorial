@@ -7,15 +7,13 @@ var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
 var login = require('./routes/login');
-var boards = require('./routes/boards');
-var users = require('./routes/users');
+var questions = require('./routes/questions');
 var passport = require('passport');
 var session = require('express-session');
-var _tutorial = require('./routes/_tutorial');  //show tutorial type
 
 var appCreate = function(app){
 // view engine setup
-  app.set('views', path.join(__dirname, 'views'));
+  app.set('views', path.join(__dirname, 'views/pages'));
   app.set('view engine', 'ejs');
 
 // uncomment after placing your favicon in /public
@@ -41,10 +39,9 @@ var appCreate = function(app){
   app.use(passport.session());
 
   app.use('/', index);
-  app.use('/boards', boards);
+  app.use('/questions', questions);
   app.use('/login', login);
-  app.use('/users', users);
-  app.use('/_tutorial', _tutorial);
+
 // catch 404 and forward to error handler
   app.use(function(req, res, next) {
     var err = new Error('Not Found');

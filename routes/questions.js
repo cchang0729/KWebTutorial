@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var Client = require('mariasql');
 var dbconfig = require('../config/dbconfig');
+var navParam = require('./../src/headerParam');
 var passport = require('passport');
 var path = require('path');
 var fs = require('fs');
@@ -9,7 +10,7 @@ var multer = require('multer');
 var storage = multer.diskStorage({
     destination : function(req, file, cb){cb(null, './public/upload/');},
     filename : function(req, file, cb){cb(null, new Date().getTime().toString()+"-"+ file.originalname);}
-})
+});
 var uploader = multer({storage:storage}).single('upload-files');
 
 //show all
@@ -19,12 +20,15 @@ router.get('/', function(req, res, next) {
         //console.log(rows);
         if(err)
             throw err;
-        res.render('boards', {rows : rows});
+        var renderParam = navParam('/questions');
+        renderParam.rows = rows;
+        res.render('questions', renderParam);
     });
+    client.end();
 });
 
 router.get('/new', function(req, res, next) {
-    res.render('board_new');
+    res.render('question-upload', navParam('/questions'));
 });
 
 /* GET board, require authentication. */
@@ -34,14 +38,16 @@ router.get('/:id([0-9]+$)', function(req, res, next) {
     var c = new Client(dbconfig);
 
     c.query("select * from boards where id="+id, function(err, rows){
-        res.render('board', {rows:rows[0]});
+        var renderParam = navParam('/questions');
+        renderParam.rows = rows[0];
+        res.render('question', renderParam);
     });
     c.end();
 });
 
 /* GET board, require authentication. */
 router.get('/:id/delete', function(req, res, next){
-    if(!req.user) res.redirect('../../login');    //if not login state
+    if(!req.user) res.redirect('../login');    //if not login state
     else next();                            //if login state
     }, function(req, res, next) {
     //connect to database
@@ -49,20 +55,22 @@ router.get('/:id/delete', function(req, res, next){
     var c = new Client(dbconfig);
     c.query("select * FROM `openholo`.`boards` WHERE `id`=" + id.toString(), function(err, rows){
         if(rows.info.numRows > 0){      //file remove
-            var filepath = path.resolve('./public/upload/' + rows[0].filename);
-            fs.stat(filepath, function(err, stats){
-                if(err) { throw err; }
-                fs.unlink(filepath, function(err){
-                    if(err) throw err
+            if(rows[0].filename!=="_"){
+                var filepath = path.resolve('./public/upload/' + rows[0].filename);
+                fs.stat(filepath, function(err, stats){
+                    if(err) { throw err; }
+                    fs.unlink(filepath, function(err){
+                        if(err) throw err
+                    });
                 });
-            });
+            }
         }
     });
     //delete operation in database!1
     c.query("DELETE FROM `openholo`.`boards` WHERE `id`=" + id.toString(), function(err, rows){
         if(err)
             throw err;
-        res.redirect('../../boards');
+        res.redirect('../../questions');
     });
     c.end();
 });
@@ -72,6 +80,9 @@ router.get('/download/:filename', function(req, res, next){
     // if(!req.user) res.redirect('../../login');    //if not login state
     // else next();                            //if login state
     next();
+    if(req.params.filename === "_"){
+        res.end();  //error check need
+    }
 }, function(req, res, next) {
     //connect to database
     res.download(path.resolve('public/upload/' + req.params.filename));
@@ -79,14 +90,16 @@ router.get('/download/:filename', function(req, res, next){
 
 /* post on board ==> append to database and redirect to home*/
 router.post('/', uploader, function(req, res, next){
-    console.log(req.file);
+    var filename;
+    if(req.file) filename = req.file.filename;
+    else filename = "_";
     //load data from req
     var date = new Date();
     var row = {
         username: req.body['name'],
         title: req.body['title'],
         contents: req.body['contents'],
-        filename: req.file.filename,
+        filename: filename,
         date: date.getFullYear().toString() + "-" + (date.getMonth() + 1).toString() + "-" + date.getDate().toString()
     };
     // console.log(dbQuery);
@@ -99,7 +112,7 @@ router.post('/', uploader, function(req, res, next){
     client.query( prep(row), function(err, rows){
         if(err)
             throw err;
-        res.redirect('../boards');
+        res.redirect('../questions');
     });
     client.end();
 });

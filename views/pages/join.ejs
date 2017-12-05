@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include ../partials/includecss.ejs %>
+</head>
+<body>
+<div id="wrapper">
+    <!-- start header -->
+    <%- include ../partials/header.ejs %>
+    <section id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div style="text-align:center">
+                    <h4>Get in touch with us by filling <strong>contact form below</strong></h4>
+                    <h6>or</h6>
+                    <strong><a>contact.openholo@gmail.com</a></strong>
+                    </div>
+                    <br/>
+                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                    <div id="errormessage">I'm sorry but server has problem. Send it later. </div>
+                    <form action="/users" type="post" class="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="affiliation" id="affiliation" placeholder="Affiliation" data-rule="required" data-msg="Please write your affiliation" />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validation"></div>
+                        </div>
+
+                        <div class="text-center"><button type="submit" class="btn btn-theme">Send Message</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <%- include ../partials/footer.ejs %>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<%- include ../partials/includejs.ejs %>
+
+</body>
+</html>

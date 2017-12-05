@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include ../partials/includecss.ejs %>
+</head>
+<body>
+<div id="wrapper">
+    <!-- start header -->
+    <%- include ../partials/header.ejs %>
+    <section id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>no</th>
+                            <th>title</th>
+                            <th>author</th>
+                            <th>date</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <% for(var i = rows.info.numRows - 1; i >= 0; i -- ) { %>
+                        <tr>
+                            <td><%=rows[i].id%></td>
+                            <td><a href="./questions/<%=rows[i].id%>"><%=rows[i].title%></a></td>
+                            <td><%=rows[i].name%></td>
+                            <td><%=rows[i].date%></td>
+                        </tr>
+                        <%}%>
+                        </tbody>
+
+                    </table>
+                    <div id="pagination">
+                        <span class="all">Page 1 of 3</span>
+                        <span class="current">1</span>
+                        <a href="#" class="inactive">2</a>
+                        <a href="#" class="inactive">3</a>
+                    </div>
+                    <a href="./questions/new" class="btn btn-default pull-right">Write</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <%- include ../partials/footer.ejs %>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+<%- include ../partials/includejs.ejs%>
+</body>
+</html>

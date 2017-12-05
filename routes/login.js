@@ -8,6 +8,7 @@ var dbconfig = require('../config/dbconfig');
 var MariaClient = require('mariasql');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
+var headerParam = require('./../src/headerParam');
 
 passport.use(new LocalStrategy(
     function(username, password, done) {
@@ -39,10 +40,11 @@ router.get('/', function(req, res, next) {
         res.clearCookie('_id');
         res.clearCookie('username');
         res.clearCookie('password');
-        res.redirect('../');
+        res.redirect('/boards');
     }
     else {
-        res.render('login');
+        var renderParam = headerParam('/boards');
+        res.render('login', renderParam);
     }
 });
 

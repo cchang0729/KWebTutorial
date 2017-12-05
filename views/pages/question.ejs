@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include ../partials/includecss.ejs %>
+</head>
+<body>
+<div id="wrapper">
+    <!-- header -->
+    <%- include ../partials/header.ejs %>
+    <section id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th><%=rows.title%></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td><%=rows.name%><div class="align-right"><%=rows.date%></div></td>
+                        </tr>
+                        <tr>
+                            <td><%=rows.contents%></td>
+                        </tr>
+                        </tbody>
+                        <tr>
+                        </tr>
+                    </table>
+                    <span class="btn btn-default file-input-button">
+                            <i class="glyphicon glyphicon-download"></i>
+                            <span>Uploaded Files </span>
+                            <input type="text" value=" <%=rows.filename%>" readonly ></input>
+                            <a href=<%='./download/' + rows.filename%> class="btn-default" name="download" >다운로드</a>
+                    </span>
+                    <a href="./<%=rows.id%>/delete" class="btn btn-default pull-right">Delete</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <%- include ../partials/footer.ejs %>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<!-- javascript
+    ================================================== -->
+<%- include ../partials/includejs.ejs%>
+
+</body>
+</html>
